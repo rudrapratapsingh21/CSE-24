@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+</head>
+
+<body>
+    <form action="./responce.html" name="rudra" target="-blanck" method="get"></form>
+    <fieldset>
+        <legend>personal information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="Name" name="name" placeholder="Enter Your Name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="Email" id="Email" name="Email" placeholder="Enter Your Email" required>
+        <br><br>
+        <label for="DOB"> Date of Birth</label>
+        <input type="date" id="DOB" placeholder="Enter your DOB" name="DOB" required>
+        <br><br>
+        <label for="Phone Number"> Phone Number</label>
+        <input type="tel" id="Phone" name="Phone" placeholder=" Enter Your Number" required>
+        <br><br>
+        <label for="add"> Address</label>
+        <textarea name="add" id="add" rows="5" cols="15"></textarea>
+        <br><br>
+        <label for="password"> password </label>
+        <input type="password" name="pass" id="pass" required>
+        <br><br>
+        <label for="attempt">Attempt</label>
+        <input type="number" id="attempt" name="attempt" min="1" max="5" required>
+        <br><br>
+        <label for="gender "> Gender:</label>
+        <input type="radio" id="male " name="gender" value="male" required>
+         
+        <input type="radio" id="female " name="gender" value="female" required>
+        <br><br>
+        <label for="cheack">Vehicles you have</label>
+        <input type="checkbox" id="car" name="veh1" >car
+        <input type="checkbox" id="byke" name="veh2"> byke
+        <br><br>
+        <label for="sel">select your languages</label>
+        <select name="select " id=" select here">
+        <option> select your choice</option>
+        <optgroup label="Progamming languages">
+        <option value="c">c</option>
+        <option value="c++"> cpp</option>
+        <option value="javascript"> javascript</option>
+        </optgroup>
+        <optgroup label="frontend languages">
+        <option value="css"> css</option>
+        <option value="HTML"> HTML</option>
+        </optgroup>
+        </select>
+           <br><br>
+        <label for="doument upload"> Document upload</label>
+        <input type="file" required>
+        <br><br>
+        <button>submit</button>
+        <button>reset</button>
+        <input type="submit">
+        <br>
+        <label for="appoinment"> appoinment</label>
+        <input type="time">
+        <br>
+        <label for="url">url</label>
+        <input type="url" name="url" id="url" placeholder="URL" required>
+
+
+    </fieldset>
+</body>
+
+</html>
